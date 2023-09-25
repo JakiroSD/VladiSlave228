@@ -2,6 +2,9 @@
 
 int main()
 {
-	std::cout << "Hello word!";
+	std::cout << "Введите имя пользователя: ";
+	std::string name;
+	std::cin >> name;
+	std::cout << "Hello word from" << name << "!";
 	return 0;
 }
